@@ -6,13 +6,28 @@
     }   
 } */
 
-/* OwlCarousel2 */
-$(document).ready(function(){
-    $('.owl-carousel').owlCarousel();
-  });
 
+/* window.onload
 
+window.onload = function() {
+    var input = document.getElementById("myCarousel").focus();
+  }
 
+  element.click() */
+
+/*   $(document).keydown(function(e) {
+    if (e.keyCode === 37) {
+       // Previous
+       $('.carousel').carousel('prev');
+       return false;
+    }
+    if (e.keyCode === 39) {
+       // Next
+       $('.carousel').carousel('next');
+       return false;
+    }
+    });
+ */
 /**
  * * Highlihght
  * ! Danger

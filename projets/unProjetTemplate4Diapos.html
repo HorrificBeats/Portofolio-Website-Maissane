@@ -18,25 +18,20 @@
   <script src="../bootstrap/js/bootstrap.min.js"></script>
 </head>
 
-<body class='body' style=' height:100%;'>
-  <nav class="navbar navbar-expand navbar-dark p-0 fixed-top" style='background-color:black; z-index:2'>
+<body class='body' style='height:100%; background-color:black'>
+  <nav class="navbar navbar-expand navbar-dark p-0 fixed-top">
     <div class="container-fluid">
-      <a class="logo colored p-0" href="../index.html">Maïssane Esr</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
+      <a class="logo p-0" href="../index.html">Maïssane Esr</a>
+        <!-- Pour fixer les butons a droite -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-        <a class="nav-link colored pb-0 pt-0" aria-current="page" href="../projets.html">Projets</a>
-        <a class="nav-link colored pb-0 pt-0" href="../contact.html">Contact</a>
-      </div>
+        <a class="nav-link colored p-0" aria-current="page" href="../projets.html">Projets</a>
+        <span style='width:6%'></span>
+        <a class="nav-link colored p-0" href="../contact.html">Contact</a>
     </div>
   </nav>
 
   <main class='contentB' style='margin-top:43px;'>
     <div id="myCarousel" class="carousel slide" data-bs-ride="">
-
       <!-- Butons PREVIOUS / NEXT -->
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev"
         style='max-height:100vh; max-width:10%'>
@@ -51,7 +46,7 @@
 
       <!-- POINTS (dots) EN BAS -->
       <ol class="carousel-indicators">
-        <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="0" class="active dot">
+        <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="0" class="active">
         </li>
         <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="1"></li>
         <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="2"></li>
@@ -63,7 +58,7 @@
       <div class="carousel-inner" role="listbox">
         <!-- Image + Texte -->
         <div class="carousel-item item active" style='background-image: url(../images/ChaqueProjet/IMGLocationExample1.jpg)'>
-          <div style='margin-left:20%; margin-right:20%; margin-top:13%; font-family: Common Sans; font-style: normal; font-weight: normal; font-size: 22px; line-height: 26px;'>
+          <div style='margin-left:20%; margin-right:20%; margin-top:15%;line-height: 26px;'>
             <p class='text-left'>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates et
               nesciunt voluptate laudantium, non harum numquam a quae inventore maxime aliquam vel. Sit doloremque
               commodi officia dolore, molestias delectus.</p>
