@@ -1,3 +1,4 @@
+
 ::-webkit-scrollbar { 
   display: none; 
   }
@@ -5,9 +6,49 @@
   cursor:  url(../images/cursor.png) 12 11,auto;
 } */
 
+main {
+  margin-top:43px !important;
+  /* La taille de la barre nav  */
+}
+
+nav, main {
+  max-width: 1440px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* !Responsive Fonts */
+  html {
+    font-size: 1rem;
+  }
+  @media (min-width: 576px) {
+    html {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    html {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+/* !======= */
+
 /* !HOVER */
   .colored:hover {
-    color:#0033CC;
+    color:#0033CC !important;
     cursor: crosshair;
   }
   .colored {
@@ -16,11 +57,13 @@
 
   a {
     cursor: crosshair;
+    text-decoration: none !important;
+    color: white !important;
+    transition: none !important;
   }
 /* !======= */
 
 /* *=========== NAVBAR =========== */
-
   nav {
     border-bottom: 1px solid white;
     /* height: 100%; */
@@ -38,21 +81,8 @@
   .Clicked {
     color: #0033CC !important;
   }
-
-  /* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  } */
-  /* 
-    .navbar-toggler:focus,
-    .navbar-toggler:active,
-    .navbar-toggler-icon:focus {
-        outline: none;
-        box-shadow: none;
-    } 
-  */
 /* *=========== */
+
 /* *=========== FOOTER ACCUEIL =========== */
   .content {
     min-height: calc(100vh - 47px);
@@ -60,6 +90,7 @@
   }
   .footer {
     height: 34px;
+    padding-top: 3px !important;
   }
   body {
     margin: 0;
@@ -79,15 +110,22 @@
     height: 32px;
     border-top: 1px solid white;
   }
+  .footerText {
+    font-size: 16px;
+    padding-right: 10px;
+  }
 /* *===========*/
+
+/* TODO: Replace w/fixed-botttom + <footer> */
 /* *=========== FOOTER ALT =========== */
-  html.pageContact {
+ /*  html.pageContact {
     height: 100%;
   }
   .body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: black;
   }
   .contentB {
     flex: 1 0 auto;
@@ -98,29 +136,21 @@
     border-top: 1px solid white;
     background-color: black;
     text-align: right;
+    padding-top: 3px !important;
   } 
 
-  .footerText {
-    font-size: 16px;
-    padding-right: 10px;
-  }
+   */
 /* *===========*/
 
 
 /* ?=========== PAGE D'ACCUEIL =========== */
-/* ?=========== */
-
-
-/* ?=========== PAGE PROJETS =========== */
-  .figureProjets {
-    text-align: left;
-  }
   figure {
-    margin: 0; 
+    margin: 0 !important; 
     padding: 0;
     float: left;
     position: relative;
   }
+
   figure figcaption {
     color:white;
     position: absolute;
@@ -130,17 +160,37 @@
     text-align: left;
     padding-left: 10px;
     padding-bottom: 6px;
-    /* font-size: 20px; */
+  }
+/* ?=========== */
+
+
+/* ?=========== PAGE PROJETS =========== */
+  .projetsText {
+    /* padding-left: 15px; */
+    font-size: 22px !important;
+  }
+
+  figure.projetsIMG img{
+    padding-bottom: 15px;
+  }
+
+/* RESPONSIVE IMG PADDING */
+  .projetsIMG {
+    padding-top: 15px;
+    padding-left: 15px;
   }
 
   .noir {
-    text-shadow: rgba(255, 247, 182, 0.427) 0px 0px 10px;
-  -webkit-user-select: auto;
     color:black;
+    font-weight: bold;
   }
 /* ?=========== */
 
 /* ?=========== PAGE CONTACT =========== */
+  .contactText {
+    border-bottom: 1px solid white;
+    padding-left: 0.5% !important;
+  }
 /* ?=========== */
 
 /* ?========= unPROJET ========== */
@@ -149,7 +199,7 @@
   }
 
   .item {
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     max-height: 100vh;
     min-height: 100vh;
     max-width: 100vw;
