@@ -10,7 +10,6 @@
 
   <!-- Custom -->
   <link rel="stylesheet" href="../styles/style.css" />
-  <script src="../scripts/main.js"></script>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
@@ -32,22 +31,40 @@
 
   <main class='contentB' style='margin-top:43px;'>
     <div id="myCarousel" class="carousel slide" data-bs-ride="" data-keyboard="true" data-touch="true">
+      
+      <!-- Butons Precedent / Suivant -->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev" style='max-height:100vh; max-width:10%'>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next" style='max-height:100vh; max-width:10%'>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+      
+      <!-- "Page-dots" -->
       <ol class="carousel-indicators">
         <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="0" class="active">
         </li>
         <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="1"></li>
         <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="2"></li>
       </ol>
+
+      <!-- CONTENU -->
       <div class="carousel-inner" role="listbox">
+        <!-- Image Responsive -->
         <div class="carousel-item item active" style='background-image: url(../images/ChaqueProjet/Identité_Visuelle_Espace_De_L’Art_Concret_1.png)'>
         </div>
-        <div class="carousel-item item text-white" style='background-color:black;'>
+
+        <!-- Texte Responsif -->
+        <div class="carousel-item item text-white" style='background-color:black;'>        
           <div class='col-xl-8 col-lg-8 col-sm-8 col-9 m-auto d-flex flex-column' style='margin-top:15% !important; font-family: Common Sans; font-style: normal; font-weight: normal; line-height: 26px;'>
             <p class='text-left'>Suite aux nombreuses recherches visuelles effectuées, un point commun s’est dégagé. En effet, la
               connexion est un principe que l’on peut retrouver dans de nombreuses images. Cohérent avec l’objectif
               d’un lieu culturel tel que l’espace de l’art concret. Ce principe est alors devenu le fil conducteur de
               toutes mes recherches plastiques. Par superposition, assemblage de diverses formes, la connexion peut se
               manifester de diverses façon.</p>
+
             <div>J’ai choisi de représenter la connexion via plusieurs angles se rapprochant vers un point. Il s’agit
               d’un travail autour du signe. Un signe comme logotype mais qui peut aussi évoquer un C afin de pouvoir
               l’intégrer à la typographie.</div>
@@ -57,21 +74,14 @@
               utilisation des ressources.</div>
           </div>
         </div>
-        <div  class="carousel-item item" style='background-image: url(../images/ChaqueProjet/Identité_Visuelle_Espace_De_L’Art_Concret_2.png)'>
+
+        <!-- Image Responsive -->
+        <div class="carousel-item item" style='background-image: url(../images/ChaqueProjet/Identité_Visuelle_Espace_De_L’Art_Concret_2.png)'>
         </div>
 
       </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev" style='max-height:100vh; max-width:10%'>
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next" style='max-height:100vh; max-width:10%'>
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
     </div>
   </main>
-
 </body>
 
 </html>
