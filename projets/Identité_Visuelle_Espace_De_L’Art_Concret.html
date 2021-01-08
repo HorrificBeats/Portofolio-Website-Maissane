@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -18,30 +18,35 @@
 </head>
 
 <body class='body' style='height:100%; background-color:black'>
+  <!-- NAVIGATION -->
   <nav class="navbar navbar-expand navbar-dark p-0 fixed-top">
+    <!-- Classes Boostrap ^^ -->
     <div class="container-fluid">
+      <!-- Prends tout la largeur du navigateur -->
       <a class="logo p-0" href="../index.html">Maïssane Esr</a>
-        <!-- Pour fixer les butons a droite -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-        <a class="nav-link colored p-0" aria-current="page" href="../projets.html">Projets</a>
-        <span style='width:5%'></span>
-        <a class="nav-link colored p-0" href="../contact.html">Contact</a>
+      <!-- Pour fixer les butons a droite -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+      <a class="nav-link colored p-0" aria-current="page" href="../projets.html">Projets</a>
+      <span style='width:5%'></span>
+      <a class="nav-link colored p-0" href="../contact.html">Contact</a>
     </div>
   </nav>
 
   <main class='contentB' style='margin-top:43px;'>
     <div id="myCarousel" class="carousel slide" data-bs-ride="" data-keyboard="true" data-touch="true">
-      
+
       <!-- Butons Precedent / Suivant -->
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev" style='max-height:100vh; max-width:10%'>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev"
+        style='max-height:100vh; max-width:10%'>
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next" style='max-height:100vh; max-width:10%'>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next"
+        style='max-height:100vh; max-width:10%'>
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </a>
-      
+
       <!-- "Page-dots" -->
       <ol class="carousel-indicators">
         <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="0" class="active">
@@ -52,14 +57,22 @@
 
       <!-- CONTENU -->
       <div class="carousel-inner" role="listbox">
+
         <!-- Image Responsive -->
-        <div class="carousel-item item active" style='background-image: url(../images/ChaqueProjet/Identité_Visuelle_Espace_De_L’Art_Concret_1.png)'>
+        <div class="carousel-item item active"
+          style='background-image: url(../images/ChaqueProjet/Identité_Visuelle_Espace_De_L’Art_Concret_1.png)'>
         </div>
 
         <!-- Texte Responsif -->
-        <div class="carousel-item item text-white" style='background-color:black;'>        
-          <div class='col-xl-8 col-lg-8 col-sm-8 col-9 m-auto d-flex flex-column' style='margin-top:15% !important; line-height: 26px;'>
-            <p class='text-left'>Suite aux nombreuses recherches visuelles effectuées, un point commun s’est dégagé. En effet, la
+        <div class="carousel-item item text-white overflow-auto" style='background-color:black;'>
+          <!-- Responsive Top Margin -->
+          <div class='d-none d-sm-block' style='height: 15vw'></div>  <!-- margin-top interface BUREAU -->
+          <div class='d-block d-sm-none' style='height: 6vh'></div>   <!-- margin-top interface MOBILE -->
+
+          <div class='col-xl-8 col-lg-8 col-sm-8 col-9 m-auto d-flex flex-column' style='margin-bottom:30% !important; 
+          line-height: 26px;'>
+            <p class='text-left'>Suite aux nombreuses recherches visuelles effectuées, un point commun s’est dégagé.
+              En effet, la
               connexion est un principe que l’on peut retrouver dans de nombreuses images. Cohérent avec l’objectif
               d’un lieu culturel tel que l’espace de l’art concret. Ce principe est alors devenu le fil conducteur de
               toutes mes recherches plastiques. Par superposition, assemblage de diverses formes, la connexion peut se
@@ -76,10 +89,11 @@
         </div>
 
         <!-- Image Responsive -->
-        <div class="carousel-item item" style='background-image: url(../images/ChaqueProjet/Identité_Visuelle_Espace_De_L’Art_Concret_2.png)'>
+        <div class="carousel-item item"
+          style='background-image: url(../images/ChaqueProjet/Identité_Visuelle_Espace_De_L’Art_Concret_2.png)'>
         </div>
 
-      </div>
+
     </div>
   </main>
 </body>

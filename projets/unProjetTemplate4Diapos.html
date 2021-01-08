@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -21,22 +21,24 @@
   <nav class="navbar navbar-expand navbar-dark p-0 fixed-top">
     <div class="container-fluid">
       <a class="logo p-0" href="../index.html">Maïssane Esr</a>
-        <!-- Pour fixer les butons a droite -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-        <a class="nav-link colored p-0" aria-current="page" href="../projets.html">Projets</a>
-        <span style='width:5%'></span>
-        <a class="nav-link colored p-0" href="../contact.html">Contact</a>
+      <!-- Pour fixer les butons a droite -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+      <a class="nav-link colored p-0" aria-current="page" href="../projets.html">Projets</a>
+      <span style='width:5%'></span>
+      <a class="nav-link colored p-0" href="../contact.html">Contact</a>
     </div>
   </nav>
 
   <main class='contentB' style='margin-top:43px;'>
     <div id="myCarousel" class="carousel slide" data-bs-ride="">
       <!-- Butons Precedent / Suivant -->
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev" style='max-height:100vh; max-width:10%'>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev"
+        style='max-height:100vh; max-width:10%'>
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next" style='max-height:100vh; max-width:10%'>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next"
+        style='max-height:100vh; max-width:10%'>
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </a>
@@ -53,7 +55,8 @@
       <!-- CONTENU -->
       <div class="carousel-inner" role="listbox">
         <!-- Image + Texte -->
-        <div class="carousel-item item active" style='background-image: url(../images/ChaqueProjet/IMGLocationExample1.jpg)'>
+        <div class="carousel-item item active"
+          style='background-image: url(../images/ChaqueProjet/IMGLocationExample1.jpg)'>
           <div style='margin-left:20%; margin-right:20%; margin-top:15%;line-height: 26px;'>
             <p class='text-left'>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates et
               nesciunt voluptate laudantium, non harum numquam a quae inventore maxime aliquam vel. Sit doloremque
@@ -72,17 +75,27 @@
         </div>
 
         <!-- Texte Responsif -->
-        <div class="carousel-item item text-white" style='background-color:black;'>
-          <div style='margin-left:20%; margin-right:20%; margin-top:13%; font-family: Common Sans; font-style: normal; font-weight: normal; font-size: 22px; line-height: 26px;'>
-            <p class='text-left'>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates et
-              nesciunt voluptate laudantium, non harum numquam a quae inventore maxime aliquam vel. Sit doloremque
-              commodi officia dolore, molestias delectus.</p>
-            <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quaerat eos sint rerum, incidunt maxime
-              natus aliquam commodi et. Fuga, itaque quos illo molestiae eligendi perspiciatis enim. Eum, dolorem earum.
-            </p>
-            <p>3. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe dolorem quisquam eum, dignissimos
-              neque quod reiciendis facilis reprehenderit impedit quam iusto adipisci veniam eveniet cumque ad deleniti
-              architecto voluptas qui!</p>
+        <div class="carousel-item item text-white overflow-auto" style='background-color:black;'>
+          <!-- Responsive Top Margin -->
+          <div class='d-none d-sm-block' style='height: 15vw'></div>
+          <div class='d-block d-sm-none' style='height: 6vh'></div>
+
+          <div class='col-xl-8 col-lg-8 col-sm-8 col-9 m-auto d-flex flex-column' style='margin-bottom:30% !important; 
+          line-height: 26px;'>
+            <p class='text-left'>Suite aux nombreuses recherches visuelles effectuées, un point commun s’est dégagé.
+              En effet, la
+              connexion est un principe que l’on peut retrouver dans de nombreuses images. Cohérent avec l’objectif
+              d’un lieu culturel tel que l’espace de l’art concret. Ce principe est alors devenu le fil conducteur de
+              toutes mes recherches plastiques. Par superposition, assemblage de diverses formes, la connexion peut se
+              manifester de diverses façon.</p>
+
+            <div>J’ai choisi de représenter la connexion via plusieurs angles se rapprochant vers un point. Il s’agit
+              d’un travail autour du signe. Un signe comme logotype mais qui peut aussi évoquer un C afin de pouvoir
+              l’intégrer à la typographie.</div>
+            <div>Ce signe est déclinable dans l’espace d’un support donné. Les changements subis en fonction du format
+              des supports n’altèrent pas sa reconnaissance et permettent de créer de nombreuses variations. </div>
+            <div>La typographie en défonce permet quant à elle un emploi moindre d’encre dans un soucis d’une moindre
+              utilisation des ressources.</div>
           </div>
         </div>
 
@@ -90,7 +103,7 @@
         <div class="carousel-item item" style='background-image: url(../images/ChaqueProjet/IMGLocationExample2.jpg)'>
         </div>
       </div>
-      
+
     </div>
   </main>
 </body>

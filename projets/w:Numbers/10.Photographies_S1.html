@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FAVICON -->
+  <link rel='icon' href="../images/cursor.png">
+  <title> Projet </title>
+
+  <!-- Custom -->
+  <link rel="stylesheet" href="../styles/style.css" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body class='body' style='height:100%; background-color:black'>
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-expand navbar-dark p-0 fixed-top">
+    <!-- Classes Boostrap ^^ -->
+    <div class="container-fluid">
+      <!-- Prends tout la largeur du navigateur -->
+      <a class="logo p-0" href="../index.html">Maïssane Esr</a>
+      <!-- Pour fixer les butons a droite -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+      <a class="nav-link colored p-0" aria-current="page" href="../projets.html">Projets</a>
+      <span style='width:5%'></span>
+      <a class="nav-link colored p-0" href="../contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class='contentB' style='margin-top:43px;'>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="">
+
+      <!-- Butons Precedent / Suivant -->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev"
+        style='max-height:100vh; max-width:10%'>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next"
+        style='max-height:100vh; max-width:10%'>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+
+      <!-- "Page-dots" -->
+      <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="0" class="active">
+        </li>
+        <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-interval="false" data-bs-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <!-- Image Responsive -->
+        <div class="carousel-item item active"
+          style='background-image: url(../images/ChaqueProjet/IMGLocationExample1.jpg)'>
+        </div>
+
+        <!-- Texte Responsif -->
+        <div class="carousel-item item text-white" style='background-color:black;'>
+          <div
+            style='margin-left:20%; margin-right:20%; margin-top:13%; font-family: Common Sans; font-style: normal; font-weight: normal; font-size: 22px; line-height: 26px;'>
+            <p class='text-left'>1. Remind me to thank John for a lovely weekend. Eventually, you do plan to have
+              dinosaurs on your dinosaur tour, right? So you two dig up, dig up dinosaurs? What do they got in there?
+              King Kong? Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the
+              tourists.</p>
+            <div>2. We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe
+              if we screw up this planet enough, they won't want it anymore! God creates dinosaurs. God destroys
+              dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs.
+            </div>
+            <div>3. You know what? It is beets. I've crashed into a beet truck. Did he just throw my cat out of the
+              window? I gave it a cold? I gave it a virus. A computer virus. Eventually, you do plan to have dinosaurs
+              on your dinosaur tour, right? My dad once told me, laugh and the world laughs with you, Cry, and I'll give
+              you something to cry about you little bastard!</div>
+          </div>
+        </div>
+
+        <!-- Image Responsive -->
+        <div class="carousel-item item" style='background-image: url(../images/ChaqueProjet/IMGLocationExample2.jpg)'>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
