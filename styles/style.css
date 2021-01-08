@@ -10,70 +10,27 @@
 } */
 
 /* !CURSOR */
-html {
-  cursor:  url(../images/cursor.png) 12 11,auto;
-}
-
-a {
-  cursor: crosshair;
-  text-decoration: none !important;
-  color: white !important;
-  transition: none !important;
-}
-
-.carousel-control-next:hover {
-  cursor:  url(../images/cursor.png) 12 11,auto;
-}
-.carousel-control-prev:hover {
-  cursor:  url(../images/cursor.png) 12 11,auto;
-} 
-
-/* !FONTS */
-  @font-face {
-    font-family: 'CommonSans-Regular';
-    src: url('../CommonSans-Regular.otf');
-  }
-  * {
-    font-family: 'CommonSans-Regular' !important;
+  /* "Boule bleue" */
+  html {
+    cursor:  url(../images/cursor.png) 12 11,auto;
   }
 
-/* Reponsive Fonts */
-  /* XS */
-  @media (max-width: 576px) {
-    html {
-      font-size: 18px !important;
-    }
+  /* Sur les liens */
+  a {
+    cursor: crosshair;
+    text-decoration: none !important;
+    color: white !important;
+    transition: none !important;
   }
 
-  /* SM */
-  @media (min-width: 576px) {
-    html {
-      font-size: 19px !important;
-    }
-    
+  /* Boule bleue sur la navigation des carousels (chaqueProjet)  */
+  .carousel-control-next:hover {
+    cursor:  url(../images/cursor.png) 12 11,auto;
   }
-
-  /* MD */
-  @media (min-width: 768px) {
-    html {
-      font-size: 20px !important;
-    }
+  .carousel-control-prev:hover {
+    cursor:  url(../images/cursor.png) 12 11,auto;
   }
-  /* LG */
-  @media (min-width: 992px) {
-    html {
-      font-size: 21px !important;
-    }
-  }
-
-  /* XL */
-  @media (min-width: 1200px) {
-    html {
-      font-size: 22px !important;
-    }
-  }
-/* !======= */
-
+/* ! */
 
 /* !HOVER */
   .colored:hover {
@@ -88,6 +45,39 @@ a {
     cursor: crosshair;
   } 
 /* !======= */
+
+/* !FONTS */
+  @font-face {
+    font-family: 'CommonSans-Regular';
+    src: url('../CommonSans-Regular.otf');
+  }
+  * {
+    font-family: 'CommonSans-Regular' !important;
+  }
+
+  /* Reponsive Fonts */
+    /* XS */
+    @media (max-width: 576px) {
+      html {font-size: 18px !important;}
+    }
+    /* SM */
+    @media (min-width: 576px) {
+      html {font-size: 19px !important;}
+    }
+    /* MD */
+    @media (min-width: 768px) {
+      html {font-size: 20px !important;}
+    }
+    /* LG */
+    @media (min-width: 992px) {
+      html {font-size: 21px !important;}
+    }
+    /* XL */
+    @media (min-width: 1200px) {
+      html {font-size: 22px !important;}
+    }
+/* !======= */
+
 
 
 /* *=========== NAVBAR =========== */
